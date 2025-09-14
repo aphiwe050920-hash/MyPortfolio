@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Aphiwamambo Mkhize</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/aphiwe050920-hash" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/aphiwamambo-mkhize-938374384" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:aphiwamambomkhize@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Aphiwamambo👋</h2>
+        <p>I’m a final-year ICT Applications Development student passionate about web and app development. I create interactive, modern, and responsive applications that solve real-world problems.
+I have hands-on experience with HTML, CSS, JavaScript, and React.js, and I enjoy building projects that showcase my technical skills and problem-solving ability.
+I’m eager to contribute to a dynamic tech team, learn from industry professionals, and apply my knowledge to real-world projects. I’m actively seeking internship opportunities where I can grow, collaborate, and make a meaningful impact.”</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-pen"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/Profile.jpeg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+  I have strong skills in web and app development, including HTML, CSS, JavaScript, SQL and React.js.  
+  I am experienced in building responsive and interactive applications, working with APIs, and creating user-friendly interfaces.  
+  I am a fast learner, detail-oriented, and eager to apply my skills to real-world projects in a professional tech environment.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/sql.jpeg" alt="node logo">
+          <span>SQL</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- SECTION 3: Projects -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+
+  <div class="projects-container">
+    <!-- Project 1 -->
+  <div class="project-card">
+  <img src="images/khenza.jpeg" alt="Khenza Foster Care System Screenshot">
+  <h3>Khenza Foster Care Automated System</h3>
+  <p>A web system to manage foster care, track adoption applications, and provide dashboards for caseworkers and admins. Built with HTML, CSS, JavaScript, and Node.js.</p>
+  <a href="https://github.com/aphiwe050920-hash" target="_blank">View Project</a>
+</div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="images/portfolio.png" alt="Portfolio Website Screenshot">
+      <h3>Personal Portfolio</h3>
+      <p>A responsive portfolio website showcasing my skills, projects, and contact information. Built with HTML & CSS.</p>
+      <a href="https://github.com/aphiwe050920-hash" target="_blank">View Project</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="images/food.png" alt="Feedback System Screenshot">
+      <h3>FoodieHub</h3>
+      <p>This Food Ordering Website is a simple yet functional web application built using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/aphiwe050920-hash" target="_blank">View Project</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+  I’m currently seeking internship opportunities in web and application development.  
+  Feel free to reach out via the contact form, email, or LinkedIn.  
+  I’m eager to contribute to a dynamic team, apply my skills, and grow as a developer.
+        </div>
+
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
